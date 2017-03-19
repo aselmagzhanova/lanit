@@ -1,6 +1,7 @@
 create database lanit;
 create user asel with password 'qwerty';
 grant all privileges on database lanit to asel;
+alter user asel superuser;
 
 create table doctors(
 ID serial, 
