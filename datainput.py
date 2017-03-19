@@ -1,5 +1,5 @@
 import psycopg2
-conn = psycopg2.connect("dbname=lanit user=postgres")
+conn = psycopg2.connect("dbname=lanit user=asel")
 
 import random
 n = int(input('Input quantity '))
